@@ -1,0 +1,42 @@
+   /* Background color for the entire page */
+   body {
+    background-color: lightgray; /* Sets a light gray background */
+  }
+  /* Class selector */
+   .card {
+    background-color: lightblue;
+    padding: 30px; /* Space inside the card */
+    margin: 20px; /* Space outside the card */
+    border: 2px solid darkblue; /* Border added to the card */
+    border-radius: 10px; /* Rounded corners */
+  }
+
+  /* ID selector */
+  #header {
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    color: darkblue;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px; /* Space around the header */
+    padding: 5px; /* Space inside the header */
+    border-bottom: 2px solid darkblue; /* Border below the header */
+  }
+
+  /* Element selector */
+  p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0; /* Remove extra spacing around paragraphs */
+    padding: 10px; /* Space inside the paragraph */
+    border: 1px dashed gray; /* Dashed border around the text */
+  }
+  /* Style for the image */
+  img {
+    width: 1520px; /* Set a fixed width for the image */
+    height: 300px; /* Maintain the aspect ratio */
+    border: 3px solid darkblue; /* Add a border around the image */
+    margin-top: 10px; /* Add spacing above the image */
+  }
